@@ -1,0 +1,10 @@
+node_modules/
+cache/
+artifacts/
+bin/
+.env
+.env.*
+*_ephemeral_wallets.json
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,442 @@
+{
+ "V_median_usd": 523.5022618962255,
+ "V_mean_usd": 670.0225271911016,
+ "nightly_usd": 295.974,
+ "lifecycle_gas": {
+  "push": 268689,
+  "push_newguest": 315368,
+  "accrue": 231918,
+  "accrue_newguest": 278597
+ },
+ "H1": {
+  "original_78_15_5_2": {
+   "non_gas_floor": 0.21000000000000002,
+   "breakeven_gwei_median_booking": {
+    "push": null,
+    "push_newguest": null,
+    "accrue": null,
+    "accrue_newguest": null
+   },
+   "at_gwei_pushnewguest": {
+    "0.5": {
+     "median": 0.21082079664463335,
+     "p90": 0.21203334811893879,
+     "share_below_legacy_low": 0.0
+    },
+    "1": {
+     "median": 0.21164159328926668,
+     "p90": 0.2140666962378776,
+     "share_below_legacy_low": 0.0
+    },
+    "10": {
+     "median": 0.2264159328926669,
+     "p90": 0.25066696237877634,
+     "share_below_legacy_low": 0.0
+    },
+    "50": {
+     "median": 0.29207966446333444,
+     "p90": 0.41333481189388166,
+     "share_below_legacy_low": 0.0
+    }
+   }
+  },
+  "revised_90_5_3_2": {
+   "non_gas_floor": 0.09,
+   "breakeven_gwei_median_booking": {
+    "push": 60.7744580266639,
+    "push_newguest": 51.77896410772906,
+    "accrue": 70.41035345564508,
+    "accrue_newguest": 58.61308037317809
+   },
+   "at_gwei_pushnewguest": {
+    "0.5": {
+     "median": 0.09082079664463336,
+     "p90": 0.09203334811893882,
+     "share_below_legacy_low": 1.0
+    },
+    "1": {
+     "median": 0.09164159328926669,
+     "p90": 0.09406669623787764,
+     "share_below_legacy_low": 1.0
+    },
+    "10": {
+     "median": 0.1064159328926669,
+     "p90": 0.13066696237877634,
+     "share_below_legacy_low": 0.994005
+    },
+    "50": {
+     "median": 0.17207966446333448,
+     "p90": 0.2933348118938817,
+     "share_below_legacy_low": 0.51891
+    }
+   }
+  }
+ },
+ "H1_including_sdg_share": {
+  "original_78_15_5_2": {
+   "non_gas_floor": 0.23,
+   "breakeven_gwei_median_booking": {
+    "push": null,
+    "push_newguest": null,
+    "accrue": null,
+    "accrue_newguest": null
+   },
+   "at_gwei_pushnewguest": {
+    "1": {
+     "median": 0.23164159328926667,
+     "share_below_legacy_low": 0.0
+    },
+    "10": {
+     "median": 0.2464159328926669,
+     "share_below_legacy_low": 0.0
+    },
+    "50": {
+     "median": 0.31207966446333446,
+     "share_below_legacy_low": 0.0
+    }
+   }
+  },
+  "revised_90_5_3_2": {
+   "non_gas_floor": 0.11,
+   "breakeven_gwei_median_booking": {
+    "push": 46.47458554980181,
+    "push_newguest": 39.59567843532222,
+    "accrue": 53.84321146608153,
+    "accrue_newguest": 44.82176734419501
+   },
+   "at_gwei_pushnewguest": {
+    "1": {
+     "median": 0.1116415932892667,
+     "share_below_legacy_low": 1.0
+    },
+    "10": {
+     "median": 0.1264159328926669,
+     "share_below_legacy_low": 0.97972
+    },
+    "50": {
+     "median": 0.19207966446333447,
+     "share_below_legacy_low": 0.37596
+    }
+   }
+  }
+ },
+ "glamsterdam_sepolia_sensitivity": {
+  "median_gas": {
+   "deploy MockStablecoin": 3347906,
+   "deploy BookingEscrow": 9940603,
+   "mint": 140512,
+   "approve": 128599,
+   "createBooking": 473445.0,
+   "confirmPayment": 67922.0,
+   "cancel": 29969,
+   "refund": 68657,
+   "completeStay": 121802
+  },
+  "lifecycle_returning_push": 663169.0,
+  "lifecycle_newguest_push": 791768.0,
+  "ratio_to_cancun_newguest_push": 2.510616169046955,
+  "ratio_to_cancun_returning_push": 2.468165797632207,
+  "excl_sdg": {
+   "median_cr_at_10gwei": 0.13121410655031923,
+   "share_below_legacy_low_at_10gwei": 0.84329,
+   "breakeven_gwei_newguest_push": 20.624006467458013,
+   "breakeven_gwei_returning_push": 24.62332882376332
+  },
+  "incl_sdg": {
+   "median_cr_at_10gwei": 0.15121410655031925,
+   "share_below_legacy_low_at_10gwei": 0.73209,
+   "breakeven_gwei_newguest_push": 15.771299063350245,
+   "breakeven_gwei_returning_push": 18.829604394642537
+  },
+  "theta_sat_scaling": 0.3983085954471512,
+  "max_intermediary_share_newguest_push": {
+   "1": 0.1608785893451828,
+   "10": 0.12378589345182814,
+   "20": 0.08257178690365628
+  }
+ },
+ "cr_gas_median_booking": {
+  "0.5": {
+   "push": 0.0008207966445905782,
+   "accrue": 0.0007250941211315077
+  },
+  "1": {
+   "push": 0.0016415932891811565,
+   "accrue": 0.0014501882422630155
+  },
+  "10": {
+   "push": 0.016415932891811567,
+   "accrue": 0.014501882422630155
+  },
+  "50": {
+   "push": 0.08207966445905783,
+   "accrue": 0.07250941211315078
+  }
+ },
+ "max_intermediary_share": {
+  "1": 0.16335840671081883,
+  "10": 0.14858406710818842,
+  "50": 0.08292033554094215
+ },
+ "tornado": {
+  "g_ref": 10.0,
+  "base": 0.10641593289181156,
+  "factors": [
+   [
+    "Settlement accrue vs push",
+    0.10450188242263016,
+    0.10641593289181156
+   ],
+   [
+    "Returning vs new guest",
+    0.10398613871023046,
+    0.10641593289181156
+   ],
+   [
+    "Ramp fee 0\u20131.5%",
+    0.09641593289181156,
+    0.11141593289181156
+   ],
+   [
+    "Stay length 1\u20133 nights",
+    0.09967852806890695,
+    0.11903558420672086
+   ],
+   [
+    "ETH price US$1,500\u20135,000",
+    0.09903629333494215,
+    0.12012097778314049
+   ],
+   [
+    "Gas price 1\u201350 gwei",
+    0.09164159328918116,
+    0.17207966445905784
+   ]
+  ]
+ },
+ "H3": {
+  "push": {
+   "marginal_gas": 9460,
+   "breakeven_gwei_median": 20.307708435177588,
+   "share_bookings_meeting": {
+    "1": 1.0,
+    "10": 0.83732,
+    "50": 0.10231
+   },
+   "ratio_median": {
+    "1": 0.0024621192568132695,
+    "10": 0.024621192568132694,
+    "50": 0.12310596284066347
+   }
+  },
+  "accrue": {
+   "marginal_gas": 2806.5113335618994,
+   "breakeven_gwei_median": 68.45186032188985,
+   "share_bookings_meeting": {
+    "1": 1.0,
+    "10": 0.998785,
+    "50": 0.66384
+   },
+   "ratio_median": {
+    "1": 0.0007304403381424357,
+    "10": 0.007304403381424357,
+    "50": 0.03652201690712178
+   }
+  }
+ },
+ "split_check": {
+  "n": 100000,
+  "remainder_violations": 0,
+  "naive_violations": 99012
+ },
+ "eip1559": {
+  "0.5": {
+   "per_block": 1.0,
+   "after_25_blocks_5min": 1.0,
+   "after_75_blocks_15min": 1.0
+  },
+  "0.7": {
+   "per_block": 1.05,
+   "after_25_blocks_5min": 3.3863549408993885,
+   "after_75_blocks_15min": 38.83268592375563
+  },
+  "0.9": {
+   "per_block": 1.1,
+   "after_25_blocks_5min": 10.834705943388395,
+   "after_75_blocks_15min": 1271.8953713950725
+  },
+  "0.98": {
+   "per_block": 1.12,
+   "after_25_blocks_5min": 17.00006440664272,
+   "after_75_blocks_15min": 4913.0558407707995
+  }
+ },
+ "revision1": {
+  "value_model": {
+   "nightly_median_usd": 295.974,
+   "nightly_mean_usd": 335.38248024800083,
+   "n_samples": 200000,
+   "nights_cap": 7,
+   "V_median": 523.5022618962255,
+   "V_mean": 670.0225271911016,
+   "V_p10": 211.32087319635966,
+   "V_p90": 1301.0794139722202
+  },
+  "min_value_meeting_H1": {
+   "1": 10.11032705882353,
+   "10": 101.1032705882353,
+   "50": 505.51635294117654
+  },
+  "example_usd50_cr_at_10gwei": 0.26187556,
+  "H1_comparator_15pct": {
+   "breakeven_gwei_newguest_push": 36.54985701722052,
+   "breakeven_gwei_returning_accrue": 49.70142596869065,
+   "share_below_at_10gwei": 0.972025
+  },
+  "cancellation": {
+   "gas_paid_cancel_newguest_push": 309072,
+   "usd_at_10gwei": 8.422212000000002,
+   "gas_completed_newguest_push": 315368,
+   "usd_completed_at_10gwei": 8.593778
+  },
+  "cancellation_mixture_10gwei": {
+   "0.1": {
+    "added_pp_per_completed_booking": 0.1787578395447007,
+    "median_cr_total": 0.10820351128725857
+   },
+   "0.15": {
+    "added_pp_per_completed_booking": 0.2839095098651129,
+    "median_cr_total": 0.10925502799046269
+   },
+   "0.25": {
+    "added_pp_per_completed_booking": 0.536273518634102,
+    "median_cr_total": 0.11177866807815258
+   }
+  },
+  "worked_accounts_median_10gwei": {
+   "booking_value": 523.5022618962255,
+   "guest_gas_approve_create_confirm": 6.4300735,
+   "operator_gas_completeStay": 2.1637045,
+   "platform_gross": 26.175113094811277,
+   "affiliate": 15.705067856886764,
+   "sdg_fund": 10.47004523792451,
+   "hotel_gross": 471.15203570660293,
+   "conversion_fee": 5.235022618962255,
+   "platform_net_if_it_pays_settlement_gas": 24.011408594811275,
+   "hotel_net_after_conversion": 465.91701308764067,
+   "cr_total_gas_passed_through": 0.10641593289181157,
+   "cr_total_platform_absorbs_settlement_gas": 0.10228279984256237
+  },
+  "conventional_same_allocation": {
+   "cr_low": 0.10500000000000001,
+   "cr_high": 0.115,
+   "blockchain_median_cr_1_10_50": [
+    0.09164159328926669,
+    0.1064159328926669,
+    0.17207966446333448
+   ]
+  },
+  "H3_accrue_withdrawal_spread": {
+   "5": {
+    "marginal_gas": 14663.4,
+    "eta_median_10gwei": 0.03816388954583054,
+    "breakeven_gwei": 13.101389977548182
+   },
+   "10": {
+    "marginal_gas": 8731.7,
+    "eta_median_10gwei": 0.022725673059953936,
+    "breakeven_gwei": 22.001548586962443
+   },
+   "30": {
+    "marginal_gas": 4777.233333333334,
+    "eta_median_10gwei": 0.012433528736036198,
+    "breakeven_gwei": 40.21384520959411
+   },
+   "100": {
+    "marginal_gas": 3393.17,
+    "eta_median_10gwei": 0.00883127822266499,
+    "breakeven_gwei": 56.61694574594847
+   },
+   "1000": {
+    "marginal_gas": 2859.317,
+    "eta_median_10gwei": 0.007441838738936095,
+    "breakeven_gwei": 67.18769615148652
+   }
+  },
+  "H3_accrue_cheaper_than_push_if_k_ge": 8.906456456456457,
+  "H3_push_eta_if_sdg_share_1pct_10gwei": 0.04924238513626539,
+  "H3_coverage_10gwei": {
+   "push": 0.83732,
+   "accrue": 0.998785
+  },
+  "operating_scenarios": {
+   "push|10": {
+    "lifecycle_gas": 315368,
+    "median_cr": 0.1064159328926669,
+    "share_below_17_5": 0.994005,
+    "eta_median": 0.024621192569415546,
+    "share_eta_le_5": 0.83732
+   },
+   "accrue_k100|10": {
+    "lifecycle_gas": 280969.68,
+    "median_cr": 0.1046253881552792,
+    "share_below_17_5": 0.996775,
+    "eta_median": 0.008831278223125131,
+    "share_eta_le_5": 0.99622
+   },
+   "accrue_k10|10": {
+    "lifecycle_gas": 302323.8,
+    "median_cr": 0.10573693974232024,
+    "share_below_17_5": 0.995105,
+    "eta_median": 0.022725673061138027,
+    "share_eta_le_5": 0.86549
+   },
+   "push|50": {
+    "lifecycle_gas": 315368,
+    "median_cr": 0.17207966446333448,
+    "share_below_17_5": 0.51891,
+    "eta_median": 0.12310596284707773,
+    "share_eta_le_5": 0.10231
+   },
+   "accrue_k100|50": {
+    "lifecycle_gas": 280969.68,
+    "median_cr": 0.16312694077639603,
+    "share_below_17_5": 0.579725,
+    "eta_median": 0.04415639111562566,
+    "share_eta_le_5": 0.566335
+   },
+   "glam_push|10": {
+    "lifecycle_gas": 791768.0,
+    "median_cr": 0.13121410655031923,
+    "share_below_17_5": 0.84329
+   }
+  },
+  "fee_ceiling_gwei": 51.77896410772906,
+  "basefee_time_to_ceiling": {
+   "0.7|1.0": {
+    "blocks_to_ceiling": 80.8971241574887,
+    "minutes": 16.17942483149774
+   },
+   "0.7|10.0": {
+    "blocks_to_ceiling": 33.70349133842435,
+    "minutes": 6.740698267684869
+   },
+   "0.9|1.0": {
+    "blocks_to_ceiling": 41.411987434942354,
+    "minutes": 8.28239748698847
+   },
+   "0.9|10.0": {
+    "blocks_to_ceiling": 17.253129506845568,
+    "minutes": 3.4506259013691136
+   },
+   "0.98|1.0": {
+    "blocks_to_ceiling": 34.8277574895232,
+    "minutes": 6.96555149790464
+   },
+   "0.98|10.0": {
+    "blocks_to_ceiling": 14.509996926463398,
+    "minutes": 2.901999385292679
+   }
+  }
+ }
+}

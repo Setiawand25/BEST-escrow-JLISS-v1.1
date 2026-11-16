@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "BEST: reference booking-escrow contracts, tests, and simulations"
+repository-code: "https://github.com/Setiawand25/BEST-escrow-smatr-tourism"
+version: 1.1.0
+date-released: 2026-11-12
+license: MIT
+authors:
+  - family-names: Setiawan
+    given-names: Dodi
+    affiliation: "Faculty of Engineering, Universitas Sriwijaya"
+    email: setiawan@pbc.ac.id
+  - family-names: Stiawan
+    given-names: Deris
+    affiliation: "Faculty of Engineering, Universitas Sriwijaya"
+  - family-names: Bin Idris
+    given-names: Mohd Yazid
+    affiliation: "Faculty of Engineering, Universiti Teknologi Malaysia"
+preferred-citation:
+  type: article
+  title: "BEST: Design and Evaluation of a Blockchain Escrow for Tourism Bookings and Community Fund Allocation"
+  authors:
+    - family-names: Setiawan
+      given-names: Dodi
+    - family-names: Stiawan
+      given-names: Deris
+    - family-names: Bin Idris
+      given-names: Mohd Yazid
+  journal: "Journal of Logistics, Informatics and Service Science"
+  year: 2026
+  notes: "Revised manuscript under review."

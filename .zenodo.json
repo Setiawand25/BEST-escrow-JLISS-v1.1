@@ -1,0 +1,31 @@
+{
+  "title": "BEST: reference booking-escrow contracts, tests, and simulations",
+  "upload_type": "software",
+  "description": "Reference smart-contract escrow, verification scripts, gas benchmark with hard-fork checks, public Sepolia campaign records, cost model, and discrete-event simulation accompanying the article 'BEST: Design and Evaluation of a Blockchain Escrow for Tourism Bookings and Community Fund Allocation' (Journal of Logistics, Informatics and Service Science, under review). Version 1.1.0 corresponds to the first revision.",
+  "creators": [
+    {
+      "name": "Setiawan, Dodi",
+      "affiliation": "Universitas Sriwijaya"
+    },
+    {
+      "name": "Stiawan, Deris",
+      "affiliation": "Universitas Sriwijaya"
+    },
+    {
+      "name": "Bin Idris, Mohd Yazid",
+      "affiliation": "Universiti Teknologi Malaysia"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "smart contract",
+    "escrow",
+    "tourism booking",
+    "revenue sharing",
+    "community fund",
+    "Ethereum",
+    "discrete-event simulation"
+  ],
+  "version": "1.1.0"
+}
