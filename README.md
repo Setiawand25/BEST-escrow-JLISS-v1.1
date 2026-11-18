@@ -8,7 +8,7 @@ It contains everything needed to reproduce the numbers that Section 4 of the art
 
 > **Research prototype.**
 
-**Version 1.1.0** corresponds to the first revision of the article (November 2026). Version 1.0.0 corresponded to the original submission.
+**Version 1.1.0**
 
 ## Mapping to the article
 
