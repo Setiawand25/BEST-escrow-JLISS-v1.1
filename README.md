@@ -6,7 +6,7 @@ This repository accompanies the article
 
 It contains everything needed to reproduce the numbers that Section 4 of the article reports for the reference contract and the models: the reference escrow contract, the verification scripts, the gas benchmark and its hard-fork checks, the transaction list of the public Sepolia campaign (including its two failed transactions), the cost model, and the discrete-event simulator.
 
-> **Research prototype.** The contracts have not been audited. Do not deploy them with real funds.
+> **Research prototype.**
 
 **Version 1.1.0** corresponds to the first revision of the article (November 2026). Version 1.0.0 corresponded to the original submission.
 
